@@ -12,10 +12,5 @@ Programming Fundamentals - Extended - January 2017: All assignments with their s
 7. Lists: Processing Variable-Length Sequences
 8. Array and List Algorithms
 9. Dictionaries
- - Dictionary
- - SortedDictionary
 10. Advanced Collections
- - Multi-Dictionaries
- - Nested Dictionaries
- - Sets (HashSet, SortedSet)
 11. Lambda and LINQ
