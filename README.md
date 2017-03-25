@@ -15,3 +15,4 @@ Programming Fundamentals - Extended - January 2017: All assignments with their s
 10. Advanced Collections
 11. Lambda and LINQ
 12. Objects and Simple Classes
+13. Files, Directories and Exceptions
