@@ -9,8 +9,8 @@ namespace _03.WorldCount
     {
         public static void Main()
         {
-            var words = File.ReadAllText("words.txt").ToLower().Split();
-            var text = File.ReadAllText("text.txt").ToLower().Split(new char[] { '\n', '\r', ' ', '.', ',', '!', '?', '-' }, StringSplitOptions.RemoveEmptyEntries);
+            var words = File.ReadAllText("../../words.txt").ToLower().Split();
+            var text = File.ReadAllText("../../text.txt").ToLower().Split(new char[] { '\n', '\r', ' ', '.', ',', '!', '?', '-' }, StringSplitOptions.RemoveEmptyEntries);
 
             var wordCount = new Dictionary<string, int>();
 
@@ -29,7 +29,7 @@ namespace _03.WorldCount
 
             foreach (var word in wordCount.OrderByDescending(x => x.Value))
             {
-                File.AppendAllText("Output.txt", $"{word.Key} - {word.Value + Environment.NewLine}");
+                File.AppendAllText("../../Output.txt", $"{word.Key} - {word.Value + Environment.NewLine}");
             }
         }
     }

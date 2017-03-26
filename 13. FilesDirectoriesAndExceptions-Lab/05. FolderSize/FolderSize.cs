@@ -9,7 +9,7 @@ namespace _05.FolderSize
     {
         public static void Main()
         {
-            var files = Directory.GetFiles("TestFolder");
+            var files = Directory.GetFiles("../../TestFolder");
             double sum = 0;
 
             foreach (var file in files)
@@ -19,7 +19,7 @@ namespace _05.FolderSize
                 sum += fileInfo.Length;
             }
 
-            File.WriteAllText("Output.txt", (sum / 1024 / 1024).ToString());
+            File.WriteAllText("../../Output.txt", (sum / 1024 / 1024).ToString());
         }
     }
 }

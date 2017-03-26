@@ -9,11 +9,11 @@ namespace _02.LineNumbers
     {
         public static void Main()
         {
-            var file = File.ReadAllLines("Input.txt");
+            var file = File.ReadAllLines("../../Input.txt");
 
             for (int i = 0; i < file.Length; i++)
             {
-                File.AppendAllText("Output.txt", $"{i + 1}. {file[i] + Environment.NewLine}");
+                File.AppendAllText("../../Output.txt", $"{i + 1}. {file[i] + Environment.NewLine}");
             }
         }
     }
