@@ -1,0 +1,9 @@
+﻿register Simo 123 123
+register Ivo 123 132
+login Simo 132
+login Simo 123
+logout
+register pesho pesho pesho
+login Ivo 123
+login pesho pesho
+exit
