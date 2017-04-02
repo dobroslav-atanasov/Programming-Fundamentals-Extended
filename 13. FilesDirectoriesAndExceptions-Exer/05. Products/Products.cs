@@ -1,110 +1,152 @@
-﻿namespace _03.Hornet_Assault
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.IO;
+
+namespace _04.ReDirectory
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-
-    class Program
+    public class Products
     {
-        static void Main(string[] args)
+
+        private static string path = "AciveProducts.txt";
+        private static SortedDictionary<string, Dictionary<string, List<decimal>>> productsDict
+            = new SortedDictionary<string, Dictionary<string, List<decimal>>>();
+
+        public static void Main()
         {
-            //READ THE TWO INPUT SEQUENCES
-            //READ THEM AS LONG TO AVOID OVERFLOWS
-            long[] beehives = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
-
-            //HORNETS GET REMOVED WHEN DEAD, WHICH IS WHY WE NEED A LIST HERE
-            List<long> hornets = Console.ReadLine().Split(' ').Select(long.Parse).ToList();
-
-            //THE LOOP THAT GOES THROUGH THE BEEHIVES
-            for (int i = 0; i < beehives.Length; i++)
+            if (!File.Exists(path))
             {
-                //IF ALL HORNETS DIED, BREAK THE LOOP
-                //MIGHT BE AN EDGE CASE ??
-                if (hornets.Count == 0)
-                {
-                    break;
-                }
-
-                //TAKE THE CURRENT BEEHIVE BEES COUNT
-                long beehiveCount = beehives[i];
-
-                long hornetPower = SumHornetsPower(hornets); //SUM ALL HORNETS POWERS WITH A SIMPLE METHOD
-
-                //THE COOL WAY => WITH LINQ
-                //long hornetPower = hornets.Sum();
-
-                //KILL BEES EQUAL TO THE HORNETS POWER, DECREASE THE INTEGER AT THAT POSITION
-                beehives[i] -= hornetPower;
-
-                //IF THE BEES ARE MORE OR EQUAL TO THE HORNETS POWER, REMOVE THE FIRST ELEMENT, BECAUSE THE FIRST HORNET DIES
-                if (beehiveCount >= hornetPower)
-                {
-                    hornets.RemoveAt(0);
-                }
+                File.Create(path).Close();
             }
 
-            //PRINT THE WINNING SIDE WITH A SIMPLE METHOD
-            PrintWinningSide(beehives, hornets);
+            var lines = File.ReadAllLines(path);
 
-            //THE COOL WAY => WITH LINQ
-            //if (beehives.Any(bh => bh > 0))
-            //{
-            //    Console.WriteLine(string.Join(" ", beehives.Where(bh => bh > 0)));
-            //}
-            //else
-            //{
-            //    Console.WriteLine(string.Join(" ", hornets));
-            //}
+            foreach (var line in lines)
+            {
+                var currentLine = line.Split(' ');
+                var productName = currentLine[1];
+                var productType = currentLine[0];
+                var productPrice = decimal.Parse(currentLine[2]);
+                var productQuantity = decimal.Parse(currentLine[3]);
+                
+                FillDictionary(productName, productType, productPrice, productQuantity);
+            }
+
+            var inputProducts = File.ReadAllLines("../../inputProducts.txt");
+            var salesDict = new Dictionary<string, decimal>();
+
+            foreach (var product in inputProducts)
+            {
+                var currentProduct = product.Split(' ');
+
+                if (currentProduct[0] == "exit")
+                {
+                    return;
+                }
+                else if (currentProduct[0] == "sales")
+                {
+                    SalesProducts(salesDict);
+                }
+                else if (currentProduct[0] == "analyze")
+                {
+                    var fileInfo = new FileInfo(path);
+
+                    if (fileInfo.Length == 0)
+                    {
+                        Console.WriteLine("No products stocked");
+                    }
+                    else
+                    {
+                        lines = File.ReadAllLines(path);
+
+                        foreach (var line in lines)
+                        {
+                            var currentLine = line.Split(' ');
+                            var productName = currentLine[1];
+                            var productType = currentLine[0];
+                            var productPrice = decimal.Parse(currentLine[2]);
+                            var productQuantity = decimal.Parse(currentLine[3]);
+
+                            Console.WriteLine($"{productType}, Product: {productName}\r\nPrice: ${productPrice}, Amount Left: {productQuantity}");
+                        }
+                    }
+                }
+                else if (currentProduct[0] == "stock")
+                {
+                    StockProducts();
+                }
+                else
+                {
+                    GetProducts(currentProduct);
+                }
+            }
         }
 
-        //SUMS THE ELEMENTS OF A SEQUENCE OF TYPE - LONG
-        private static long SumHornetsPower(List<long> hornets)
+        private static void GetProducts(string[] currentProduct)
         {
-            //CREATE THE RESULT VARIABLE
-            long sum = 0L;
+            var productName = currentProduct[0];
+            var productType = currentProduct[1];
+            var productPrice = decimal.Parse(currentProduct[2]);
+            var productQuantity = decimal.Parse(currentProduct[3]);
 
-            //FOREACH THE COLLECTION
-            foreach (var hornet in hornets)
-            {
-                //ADD EVERY ELEMENT TO THE SUM
-                sum += hornet;
-            }
-
-            //RETURN THE RESULT
-            return sum;
+            FillDictionary(productName, productType, productPrice, productQuantity);
         }
 
-        //PRINT THE WINNING SIDE
-        //CHECKS THE COLLECTION OF BEEHIVES IF IT HAS ANY ALIVE ONES
-        //IF IT DOES, PRINT THEM
-        //ELSE, PRINT THE COLLECTION OF HORNETS
-        private static void PrintWinningSide(long[] beehives, List<long> hornets)
+        private static void FillDictionary(string productName, string productType, decimal productPrice, decimal productQuantity)
         {
-            //CREATE A SIMPLE LIST OF LONG, TO STORE THE ALIVE BEEHIVES
-            List<long> aliveBeehives = new List<long>();
-
-            //FOREACH THROUGH THE COLLECTION OF BEEHIVES
-            foreach (var beehive in beehives)
+            if (!productsDict.ContainsKey(productType))
             {
-                //ADD EVERY ALIVE BEEHIVE TO THE COLLECTION OF ALIVE BEEHIVES
-                if (beehive > 0)
+                productsDict.Add(productType, new Dictionary<string, List<decimal>>());
+            }
+            if (!productsDict[productType].ContainsKey(productName))
+            {
+                productsDict[productType].Add(productName, new List<decimal>());
+            }
+
+            productsDict[productType][productName] = new List<decimal> { productPrice, productQuantity };
+        }
+
+        private static void SalesProducts(Dictionary<string, decimal> salesDict)
+        {
+            decimal currentTypeSum = 0;
+
+            foreach (var type in productsDict)
+            {
+                foreach (var name in type.Value)
                 {
-                    aliveBeehives.Add(beehive);
+                    var price = name.Value[0];
+                    var quantity = name.Value[1];
+
+                    currentTypeSum += price * quantity;
                 }
+
+                salesDict.Add(type.Key, currentTypeSum);
+                currentTypeSum = 0;
             }
 
-            //IF THERE ARE ANY ALIVE BEEHIVES PRINT THEM
-            //ELSE, PRINT THE HORNETS
-            //IN BOTH CASES, JOIN THE COLLECTIONS BY SPACE 
-            if (aliveBeehives.Count > 0)
+            foreach (var type in salesDict.OrderByDescending(x => x.Value))
             {
-                Console.WriteLine(string.Join(" ", aliveBeehives));
+                Console.WriteLine($"{type.Key}: ${type.Value:f2}");
             }
-            else
+
+            salesDict.Clear();
+        }
+
+        private static void StockProducts()
+        {
+            File.WriteAllText(path, string.Empty);
+            File.Create(path).Close();
+
+            foreach (var type in productsDict)
             {
-                Console.WriteLine(string.Join(" ", hornets));
+                foreach (var name in type.Value)
+                {
+                    var price = name.Value[0];
+                    var quantity = name.Value[1];
+                    
+                    File.AppendAllLines(path, new[] { $"{type.Key} {name.Key} {price} {quantity}" });
+                }
             }
         }
     }
 }
-

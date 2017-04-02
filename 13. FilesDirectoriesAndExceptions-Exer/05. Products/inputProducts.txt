@@ -1,0 +1,13 @@
+SamsungSmartTV Electronics 4000.50 10
+Banana Food 1.50 10000
+IPhone7 Electronics 1000 100
+Apple Food 1 100000
+Microwave Electronics 149.99 2500
+Toster Electronics 20.00 15730
+sales
+Mopper Domestics 10.05 10000
+ToiletPaper Domestics 5.50 100000
+analyze
+sales
+stock
+exit
