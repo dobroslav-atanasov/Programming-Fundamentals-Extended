@@ -18,3 +18,5 @@ Programming Fundamentals - Extended - January 2017: All assignments with their s
 13. Files, Directories and Exceptions
 14. Strings and Text Processing
 15. Regular Expressions
+
+### Exam - 30.04.2017
