@@ -1,4 +1,4 @@
-# SoftUni Programming Fundamentals Extended - January 2017
+# SoftUni Programming Fundamentals Extended
 Programming Fundamentals - Extended - January 2017: All assignments with their solutions.
 
 ## Course content
