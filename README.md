@@ -1,22 +1,23 @@
-# SoftUni Programming Fundamentals Extended
-Programming Fundamentals - Extended: All assignments with their solutions.
+# Softuni course: [Programming Fundamentals Extended](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)
+SoftUni course Programming Fundamentals Extended - January 2017: All tasks with their solutions.
 
 ## Course content
 
-1. Version Control Systems
-2. Data Types: Numeral Types and Type Conversion
-3. Data Types: Text and Other Types, Variables
-4. Methods: Defining and Calling Methods
-5. Debugging and Troubleshooting Code
-6. Arrays: Simple Array Processing 
-7. Lists: Processing Variable-Length Sequences
-8. Array and List Algorithms
-9. Dictionaries
-10. Advanced Collections
-11. Lambda and LINQ
-12. Objects and Simple Classes
-13. Files, Directories and Exceptions
-14. Strings and Text Processing
-15. Regular Expressions
+- Version Control Systems
+- Data Types and Variables
+- Methods and Debugging
+- Arrays
+- Lists
+- Dictionaries, Lambda and LINQ
+- Objects and Classes
+- Files and Exceptions
+- Strings
+- Regular Expressions
 
-### Exam - 30.04.2017
+## Repository content:
+
+1. DataTypes [Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab) [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises) [More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)
+
+### [Resources](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)
+
+### [Exam - 30 April 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Exam-30.04.2017)
