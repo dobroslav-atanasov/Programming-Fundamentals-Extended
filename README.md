@@ -16,10 +16,7 @@ SoftUni course Programming Fundamentals Extended - January 2017: All tasks with 
 
 ## Repository content:
 
-1. DataTypes 
-	[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)
-	[Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)
-	[More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)
+1. DataTypes [Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)  |  [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)  |  [More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)
 
 ### [Resources](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)
 
