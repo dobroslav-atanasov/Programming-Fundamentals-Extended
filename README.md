@@ -15,7 +15,7 @@ SoftUni course Programming Fundamentals Extended - January 2017: All tasks with 
 - Regular Expressions
 
 ## Repository content:
-
+------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 DataTypes 							|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)  					|  [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)  				|  [More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)
 Methods 							|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/04.%20Methods-Lab) 						| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/05.%20Methods-Exercises)
 Debugging 							|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/06.%20Debugging-Lab) 					| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/07.%20Debugging-Exercises)
