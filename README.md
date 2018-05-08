@@ -1,4 +1,9 @@
-# Softuni course: [Programming Fundamentals Extended](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)
+<p align="center">
+	<a href="https://softuni.bg/"><img src="https://www.jobs.bg/assets/logo/2017-09-01/b_6e048c01c340d967f2a6e540e9825d46.png" alt="Softuni logo" width="400" align="center">
+	</a>
+<p>
+
+## Course: [Programming Fundamentals Extended](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)
 SoftUni course Programming Fundamentals Extended - January 2017: All tasks with their solutions.
 
 ## Course content
