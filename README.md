@@ -41,6 +41,7 @@ Strings and Text Processing 		|[Lab](https://github.com/dobroslav-atanasov/Progr
 Regular Expressions 				|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/31.%20RegularExpressions-Lab) 			| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/32.%20RegularExpressions-Exercises)
 
 > **Exams**
+
 Exams				|Date				|Descriptions																											|Solutions
 --------------------|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
 
@@ -51,6 +52,5 @@ Exams				|Date				|Descriptions																											|Solutions
 - [Exam Preparation IV](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/37.%20ExamPreparationIV)
 - [Exam Preparation V: Exam - 26 February 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/38.%20ExamPreparationV)
 
-### [Resources](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)
 
 ### [Exam - 30 April 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Exam-30.04.2017)
