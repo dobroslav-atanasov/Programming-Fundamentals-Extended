@@ -7,8 +7,7 @@
 SoftUni course Programming Fundamentals Extended - January 2017: All tasks with their solutions.
 
 ## Course content
-
-- Version Control Systems
+- VCS (Version Control Systems)
 - Data Types and Variables
 - Methods and Debugging
 - Arrays
@@ -20,6 +19,10 @@ SoftUni course Programming Fundamentals Extended - January 2017: All tasks with 
 - Regular Expressions
 
 ## Repository content:
+Tasks								|Descriptions																														| Labs																														| Exercises																															|More Exercises	 																														|Progress																													
+------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:-------------:
+Data Types and Variables			|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)						|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)  			|[Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)  		|[More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)	|![Progress](http://progressed.io/bar/100?title=completed)
+
 Tasks								| Labs																																| Exercises																																	| More Exercises
 ------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 DataTypes 							|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)  					| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)  				| [More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)
