@@ -19,15 +19,15 @@ SoftUni course Programming Fundamentals Extended - January 2017: All tasks with 
 - Regular Expressions
 
 ## Repository content:
+
+> **Homeworks**
+
 Tasks								|Descriptions																														| Labs																														| Exercises																															|More Exercises	 																														|Progress																													
 ------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:-------------:
 Data Types and Variables			|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)						|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/01.%20DataTypes-Lab)  			|[Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/02.%20DataTypes-Exercises)  		|[More Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/03.%20DataTypes-MoreExercises)	|![Progress](http://progressed.io/bar/100?title=completed)
 Methods and Debugging				|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources)						|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/04.%20Methods-Lab) 				|[Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/05.%20Methods-Exercises)			|																																		|![Progress](http://progressed.io/bar/100?title=completed)
-													
-Tasks								| Labs																																| Exercises																																	| More Exercises
-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Methods							    |[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/04.%20Methods-Lab) 						| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/05.%20Methods-Exercises)
+
 Debugging 							|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/06.%20Debugging-Lab) 					| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/07.%20Debugging-Exercises)
 Arrays 								|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/08.%20Arrays-Lab) 						| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/09.%20Arrays-Exercises) 					| [MoreExercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/10.%20Arrays-MoreExercises)
 Lists 								|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/11.%20Lists-Lab) 						| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/12.%20Lists-Exercises)					| [MoreExercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/13.%20Lists-MoreExercises)
@@ -39,6 +39,10 @@ Objects and Simple Classes 			|[Lab](https://github.com/dobroslav-atanasov/Progr
 Files, Directories and Exceptions 	|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/26.%20FilesDirectoriesAndExceptions-Lab) | [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/27.%20FilesDirectoriesAndExceptions-Exercises)
 Strings and Text Processing 		|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/28.%20StringsAndTextProcessing-Lab) 		| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/29.%20StringsAndTextProcessing-Exercises) | [MoreExercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/30.%20StringsAndTextProcessing-MoreExercises)
 Regular Expressions 				|[Lab](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/31.%20RegularExpressions-Lab) 			| [Exercises](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/32.%20RegularExpressions-Exercises)
+
+> **Exams**
+Exams				|Date				|Descriptions																											|Solutions
+--------------------|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
 
 - [Debugging Exam Problems](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/33.%20DebuggingExamProblems)
 - [Exam Preparation I: Exam - 6 January 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/34.%20ExamPreparationI)
