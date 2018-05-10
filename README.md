@@ -43,7 +43,7 @@ Regular Expressions 				|[Description](https://github.com/dobroslav-atanasov/Pro
 Date				|Descriptions																													|Solutions
 :------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------:
 19 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-19.10.2016)	|[Solution](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Exam-19.10.2016)	
-20 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-20.10.2016)	|[Solution]()
+20 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-20.10.2016)	|[Solution](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Exam-20.10.2016)
 23 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-23.10.2016)	|[Solution]()
 6 January 2017		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-06.01.2017)	|[Solution]()
 26 February	2017	|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-26.02.2017)	|[Solution]()
