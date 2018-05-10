@@ -40,15 +40,11 @@ Regular Expressions 				|[Description](https://github.com/dobroslav-atanasov/Pro
 
 > **Exams**
 
-Exams				|Date				|Descriptions																											|Solutions
---------------------|:-----------------:|:---------------------------------------------------------------------------------------------------------------------:|:----------:
-
-- [Debugging Exam Problems](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/33.%20DebuggingExamProblems)
-- [Exam Preparation I: Exam - 6 January 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/34.%20ExamPreparationI)
-- [Exam Preparation II: Exam - 23 October 2016](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/35.%20ExamPreparationII)
-- [Exam Preparation III: Exam - October 2016](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/36.%20ExamPreparationIII)
-- [Exam Preparation IV](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/37.%20ExamPreparationIV)
-- [Exam Preparation V: Exam - 26 February 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/38.%20ExamPreparationV)
-
-
-### [Exam - 30 April 2017](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Exam-30.04.2017)
+Date				|Descriptions																													|Solutions
+:------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:----------:
+19 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-19.10.2016)	|[Solution]()	
+20 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-20.10.2016)	|[Solution]()
+23 October 2016		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-23.10.2016)	|[Solution]()
+6 January 2017		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-06.01.2017)	|[Solution]()
+26 February	2017	|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-26.02.2017)	|[Solution]()
+30 April 2017		|[Description](https://github.com/dobroslav-atanasov/Programming-Fundamentals-Extended/tree/master/Resources/Exam-30.04.2017)	|[Solution]()
